@@ -6,7 +6,7 @@ app.use(morgan('combined'))
 
 app.get('/', (req, res) => {
   console.log("develop")
-  console.log("master")
+  console.log("masterr")
   res.send('Hello World!')
 })
 
