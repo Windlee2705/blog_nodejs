@@ -1,0 +1,30 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Windlee2705/blog_nodejs.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "phonglq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Windlee2705/blog_nodejs/issues"
+  },
+  "homepage": "https://github.com/Windlee2705/blog_nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
