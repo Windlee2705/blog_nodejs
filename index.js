@@ -5,7 +5,7 @@ const morgan = require('morgan')
 app.use(morgan('combined'))
 
 app.get('/', (req, res) => {
-  console.log("test 1")
+  console.log("master")
   res.send('Hello World!')
 })
 
