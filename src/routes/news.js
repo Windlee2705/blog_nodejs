@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const newsController = require('../app/controllers/NewsController')
+
+console.log(newsController, "phongquang le")
+
+
+router.use('/:id',newsController.slug)
+router.use('/',newsController.index)
+
+module.exports = router
